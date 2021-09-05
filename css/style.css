@@ -1,0 +1,43 @@
+/* Reset CSS */
+*, *:after, *:before{
+    box-sizing: border-box;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-size: 100%;
+    font-family: inherit;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(63, 62, 62);
+    font-size: 16px;
+    height: 100vh;
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: mediumpurple;
+}
+h1, h2, h3, h4, h5, h6, a, p{
+    font-weight: normal;
+    font-style: none;
+    font-variant: normal;
+}
+/* Elementos */
+.slt-cr{
+    width: auto;
+    padding: 2em;
+    border: 1px solid rgb(138, 137, 137);
+    font-size: 3em;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+}
